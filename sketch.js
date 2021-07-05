@@ -90,6 +90,10 @@ function setup() {
 function draw() {
   background(0);
   
+  if(keyDown("T") && gameStates === 0 ) {
+  gamestates = 4;
+  }
+  
   //console.log();
   
   //home page
